@@ -55,5 +55,3 @@ let calc = (v1,v2,operator)=>{
     let result=calc(6,2,"+");
     console.log("Soma="+result);
 
-
-    

@@ -31,7 +31,7 @@ const h=20;
 console.log(c!=d);
 
 //If & else
-let cor = "amarelo";
+/*let cor = "amarelo";
 //let cor ="vermelho";
 //let cor ="verde";
 
@@ -43,6 +43,6 @@ else if(cor==="amarelo"){
 }
 else{
     console.log("pare");
-}
+}*/
 
 
