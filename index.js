@@ -72,7 +72,38 @@ carros.forEach(function(value,index){
     console.log(index,value);
 });
 
+//Class and object-oriented programming
 
+//Class
+let celular=function(){
 
+    this.corCelular="prata";
 
+    this.ligar=function(){
 
+        console.log("Uma ligação");
+        
+        return "Ligando"
+    }
+}
+let objeto=new celular()
+
+//Construtor function
+    console.log(objeto.ligar());
+
+    class celular1{
+        constructor(){
+     
+         this.corCelular1="Dourado";
+        
+        };
+        
+        ligar1(){
+         console.log("Uma ligação1");   
+         return "Ligando1";
+         
+        } 
+     }
+     let obj=new celular1();
+     console.log(obj.ligar1());
+     
