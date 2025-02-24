@@ -45,4 +45,34 @@ else{
     console.log("pare");
 }*/
 
+//DOM
+window.addEventListener('focus',event=>{
+    console.log("Focus");
+});
+
+document.addEventListener('click',event=>{
+    console.log("CLick")
+});
+
+//Date
+//let agora=Date.now();
+//console.log(agora);
+
+//let agora=new Date();
+//console.log(agora);
+
+let agora = new Date();
+console.log(agora.toLocaleDateString("pt-BR"));
+
+let carros = ["palio 98", "toro", "uno", 10,new Date,true, function(){}];
+
+//console. log(carros[0]); 
+
+carros.forEach(function(value,index){
+    console.log(index,value);
+});
+
+
+
+
 
